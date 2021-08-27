@@ -16,10 +16,7 @@ info.fingerprint = Player.PlayerData.metadata["fingerprint"]
 + use item and exit with backspace
 + thanks for the design, Buzzee
 
-![Image](https://i.hizliresim.com/cbm8p7a.png)
-![Image](https://i.hizliresim.com/s0n20b6.png)
-
-
+![image](https://user-images.githubusercontent.com/54551902/131189361-3ff8b91f-443c-4f34-8c66-4223e7eda731.png)
 
 # you can use this instead of loop
     document.onkeyup = function (data) {
