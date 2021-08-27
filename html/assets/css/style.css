@@ -12,23 +12,18 @@ p {
   text-transform: uppercase;
   color: rgb(40, 40, 40);
   font-size: 14px;
-}
-
-#name {
-  color: rgb(40, 40, 40);
-  text-align: center;
-  margin-top: 14px;
+  font-weight: 400;
 }
 
 #id-card {
   position: relative;
   display: none;
-  margin: 230px 50px 0 0;
-  float: right;
-  width: 457px;
-  height: 272px;
-  padding: 54px 17px 10px 144px;
+  margin: 25px 50px 50px 25px;
+  width: 455px;
+  height: 289px;
   background: url("../images/idcard.png");
+  background-repeat: no-repeat;
+  background-size: 455px 289px;
 }
 
 img {
@@ -37,38 +32,81 @@ img {
   top:5px;
 }
 #name {
-  font-weight: bolder;
+  top: 40px;
+  left: 162px;
+  font-weight: 500;
   font-size: 18px;
   color: #282828;
 }
+
+#surname {
+  position: absolute;
+  font-weight: 700;
+  font-size: 16px;
+  color: #282828;
+  top: 83px;
+  left: 162px;
+}
+
+#firstname {
+  position: absolute;
+  font-weight: 400;
+  color: #282828;
+  top: 112px;
+  left: 162px;
+}
+
 #inline {
   position: absolute;
-  top: 127px;
+  top: 140px;
 }
 
 #dob {
   position: absolute;
-  left: 43px;
+  left: 162px;
+  top: 167px;
+  width: 100px;
+}
+
+#doi {
+  position: absolute;
+  left: 162px;
+  top: 194px;
+  width: 100px;
+}
+
+#doe {
+  position: absolute;
+  left: 162px;
+  top: 222px;
   width: 100px;
 }
 
 #sex {
   position: absolute;
-  left: 137px;
+  left: 162px;
 }
 
 #nationality {
   position: absolute;
-  left: 223px;
+  left: 215px;
   width: 60px;
 }
 
 #fingerprint {
-    position: absolute;
-    left: 124px;
-    top: 64px;
-    font-size: 12px;
-    opacity: 0.5;
+  position: absolute;
+  left: 331px;
+  top: 62px;
+  font-size: 12px;
+}
+
+#signature {
+  position: absolute;
+  left: 15px;
+  top: 245px;
+  width: 100px;
+  font-weight: 600;
+  font-family: justsignature;
 }
 
 .hidden {
