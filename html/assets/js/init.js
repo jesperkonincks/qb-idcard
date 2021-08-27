@@ -5,7 +5,7 @@ $(document).ready(function(){
     if (event.data.status == 'open') {
       var sex = event.data.information.gender
       $("#firstname").html(event.data.information.firstname);
-      $("#surname").html(event.data.information.lastname);
+      $("#lastname").html(event.data.information.lastname);
       $("#sex").html(event.data.information.gender);
       $("#dob").html(event.data.information.dob);
       $("#dobvert").html(event.data.information.dob);
@@ -15,12 +15,12 @@ $(document).ready(function(){
       } 
         if ( sex == '0' ) {
           $('#id-card').show();
-          $('#sex').text('male');
+          $('#sex').text('man');
           $('#id-card').css('background', 'url("/html/assets/images/id_template_m.png")');
         } else if ( sex == '1' ) {
           $('#id-card').show();
           $('#id-card').css('background', 'url("/html/assets/images/id_template_v.png")');
-          $('#sex').text('female');
+          $('#sex').text('vrouw');
         }
 
         if (event.data.action == 'close') { 

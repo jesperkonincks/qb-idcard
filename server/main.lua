@@ -8,7 +8,8 @@ QBCore.Functions.CreateCallback('qb-idcard:openInformation', function(source, cb
     local src = source
     local xPlayer = QBCore.Functions.GetPlayer(src)
     local inf = {
-        ['name'] = idcard["info"]["lastname"] .. ' ' .. idcard["info"]["firstname"],
+        ['firstname'] = idcard["info"]["firstname"],
+        ['lastname'] = idcard["info"]["lastname"],
         ['gender'] = idcard["info"]["gender"],
         ['dob'] = idcard["info"]["birthdate"],
         ['nationality'] = idcard["info"]["nationality"],
